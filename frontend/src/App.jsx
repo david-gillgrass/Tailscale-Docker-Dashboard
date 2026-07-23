@@ -13,10 +13,15 @@ function App() {
   },[]);
 
   return (
-    <>
-    <pre>{JSON.stringify(Services,null,2)}</pre>
-    </>
-  )
+      <>
+      {Services.map((service) => (
+        <div key = {service.Name}>
+        <h2>{service.LAN_URL}</h2>
+        <p>{service.Tailscale_URL}</p>
+        </div>
+      ))}
+      </>
+    );
 }
 
 export default App
