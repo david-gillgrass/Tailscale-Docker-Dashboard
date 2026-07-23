@@ -1,0 +1,7 @@
+[
+         {"Name":"Sonarr","LAN_URL":"http://192.168.0.164:8989","Tailscale_URL":"http://jellyfin-server:8989"},
+         {"Name":"Jellyfin","LAN_URL":"http://192.168.0.164:8096","Tailscale_URL":"http://jellyfin-server:8096"},
+         {"Name":"Lidarr","LAN_URL":"http://192.168.0.164:8686","Tailscale_URL":"http://jellyfin-server:8686"},
+         {"Name":"Radarr","LAN_URL":"http://192.168.0.164:7878","Tailscale_URL":"http://jellyfin-server:7878"},
+         {"Name":"Navidrome","LAN_URL":"http://192.168.0.164:4533","Tailscale_URL":"http://jellyfin-server:4533"}
+]
